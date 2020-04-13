@@ -1,0 +1,48 @@
+/* SCREEN SIZES  */
+$breakpoint-xsmallToSmall: 320px;
+$breakpoint-smallToMedium: 768px;
+$breakpoint-mediumToLarge: 1024;
+$breakpoint-largeToXlarge: 1600px;
+
+/* PADDING AND MARGINS  */
+$spacing-sm: 6px;
+$spacing-md: 10px;
+$spacing-lg: 20px;
+
+$button-height: 27px;
+$button-width: 35px;
+
+/* COLOURS */
+/* Colour references */
+$colour-red: #d4003c;  // Interactive Schools red
+$colour-nearBlack: #0f0705;  // Interactive Schools near-black (e.g. for background image)
+$colour-midGrey: #777777;
+
+$colour-primary: $colour-red;
+$colour-monochrome: $colour-midGrey;
+$colour-lightest: #FFFFFF;
+$colour-darkest: $colour-nearBlack;
+
+/* FONTS */
+$font-family-default:  'Quicksand', Arial, sans-serif;
+$font-size-default: 12px;
+
+
+@media (min-width: $breakpoint-xsmallToSmall) {
+  
+}
+
+
+@media (min-width: $breakpoint-smallToMedium) {
+   
+}
+
+
+@media (min-width: $breakpoint-mediumToLarge) {
+    
+}
+
+
+@media (min-width: $breakpoint-largeToXlarge) {
+    
+}

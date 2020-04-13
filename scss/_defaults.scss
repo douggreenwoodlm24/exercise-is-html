@@ -1,0 +1,56 @@
+body { 
+    background: $colour-darkest url("../img/stage.jpg") no-repeat top center;
+    color: $colour-lightest;
+    min-height: 3000px;
+    font-family: $font-family-default;
+}
+
+.visible-inline-smallToMedium {
+    display: none;
+    @media (min-width: $breakpoint-smallToMedium) {
+        display: inline;
+    }
+}
+
+.site-text {
+    font-family: 'TrajanPro', $font-family-default;
+    text-transform: uppercase;
+}
+
+h1 {
+    @extend .site-text;
+    text-align: center;
+    margin: 0;
+    font-size: 1em;
+    @media (min-width: $breakpoint-smallToMedium) {
+        font-size: 2em;
+    }
+}
+
+p {
+    margin: $spacing-md 0 ($spacing-lg*2);
+    line-height: 1.4em;
+
+    &::first-letter {
+        font-size: 40px;
+    }
+}
+
+a {
+    color: $colour-primary; 
+}
+
+a:hover {
+    color: $colour-primary; 
+}
+
+.btn-default {
+    cursor: pointer;
+    background: transparent;
+    color: $colour-lightest;
+    border: 0px solid transparent;
+    float: left;
+    text-transform: uppercase;
+    font-size: $spacing-lg;
+    padding:$spacing-md $spacing-lg;
+}

@@ -1,0 +1,35 @@
+
+
+/* SCROLL PROGRESS CIRCLE */
+.scrollProgress-holder {
+    width: 100%;
+    height: 100vh;
+    top: 30%;
+}
+svg circle {
+    stroke: transparent;
+    stroke-width: 1px;
+}
+svg .scrollProgress-stroke {
+    stroke-width: 2px;
+    transition: .1s;
+    stroke: $colour-lightest;
+}
+.scrollProgress-inner {
+    position: relative;
+    display: block;
+    margin: 5px auto 0;
+    height: 30px;
+    width: 30px;
+}
+.scrollProgress-inner:after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    content: attr(data-scroll);
+    border-radius: 50%;
+    color: $colour-lightest;
+}
+  
