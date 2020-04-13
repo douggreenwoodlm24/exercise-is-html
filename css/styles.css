@@ -348,6 +348,9 @@ a {
 a:hover {
   color: #d4003c; }
 
+footer {
+  font-size: 6px; }
+
 .btn-default {
   cursor: pointer;
   background: transparent;

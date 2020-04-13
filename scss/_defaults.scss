@@ -44,6 +44,10 @@ a:hover {
     color: $colour-primary; 
 }
 
+footer {
+    font-size: $spacing-sm;
+}
+
 .btn-default {
     cursor: pointer;
     background: transparent;
